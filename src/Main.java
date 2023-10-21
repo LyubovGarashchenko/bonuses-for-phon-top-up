@@ -13,7 +13,7 @@ public class Main {
             bonus = 0;
         }
 
-        System.out.println("Количество бонусных рублей: " +bonus);
+        System.out.println("Количество бонусных рублей: " + bonus);
 
         System.out.println("Итоговый расчёт: " + (amount + refill + bonus));
 
@@ -21,17 +21,17 @@ public class Main {
         System.out.println("Клиент 2");
 
         int balance = 100; //  изначально было на счету 100 рублей
-        int PhoneTopUp = 1100; // сумма пополнение счёта
+        int phoneTopUp = 1100; // сумма пополнение счёта
 
 
-        if (PhoneTopUp > 1000) {
-            bonus = PhoneTopUp / 100;
+        if (phoneTopUp > 1000) {
+            bonus = phoneTopUp / 100;
         } else {
             bonus = 0;
         }
 
-        System.out.println("Количество бонусных рублей: " +bonus);
+        System.out.println("Количество бонусных рублей: " + bonus);
 
-        System.out.println("Итоговый расчёт: " + (balance + PhoneTopUp + bonus));
+        System.out.println("Итоговый расчёт: " + (balance + phoneTopUp + bonus));
     }
 }
